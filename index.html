@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>softsensor timesheet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <!-- Add the buttons in the right-hand side corner with reduced spacing -->
+    <div class="button-container">
+      <button class="prev-month">Previous Month</button>
+      <button class="next-month">Next Month</button>
+    </div>
+  </div>
+  <div class="mode-switch-container">
+    <button id="mode-toggle"> Dark/Light Mode</button>
+  </div>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Month</th>
+        <th colspan="13">Office Hours</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12pm</th>
+        <th>1pm</th>
+        <th>2pm</th>
+        <th>3pm</th>
+        <th>4pm</th>
+        <th>5pm</th>
+        <th>6pm</th>
+        <th>7pm</th>
+        <th>8pm</th>
+        <th>9pm</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- JavaScript will populate the rows here -->
+    </tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
